@@ -4,7 +4,7 @@
 static HTHandle hToggleMenu = NULL;
 
 static void loadOptions() {
-  f64 fpsLimit;
+  f64 fpsLimit = (f64)gFpsLimit;
 
   HTOptionGetCustom(
     hModuleDll,
